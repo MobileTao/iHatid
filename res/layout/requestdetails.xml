@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:gravity="center_horizontal">
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/editTextDestEstablishment" android:id="@+id/editTextDestStreet" android:layout_alignLeft="@+id/editText3" android:hint="@string/street"></EditText>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/editTextDestStreet" android:layout_alignLeft="@+id/textView2" android:hint="@string/city" android:id="@+id/editTextDestCity">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText android:layout_height="wrap_content" android:layout_below="@+id/editTextCurrHouse" android:layout_width="match_parent" android:id="@+id/editTextCurrStreet" android:layout_alignLeft="@+id/editTextCurrHouse" android:hint="@string/street"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_below="@+id/editTextCurrStreet" android:layout_width="match_parent" android:id="@+id/editTextCurrCity" android:layout_alignLeft="@+id/editTextCurrStreet" android:hint="@string/city"></EditText>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editTextDestEstablishment" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/editTextDestStreet" android:hint="@string/destination"></EditText>
+    <Spinner android:layout_height="wrap_content" android:layout_below="@+id/editTextCurrCity" android:layout_alignLeft="@+id/textView2" android:layout_width="match_parent" android:id="@+id/spinnerPrefCo" android:entries="@array/taxi_operators"></Spinner>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editTextCurrHouse" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:hint="@string/current_location"></EditText>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="Destination" android:layout_alignParentTop="true" android:layout_alignLeft="@+id/editTextDestEstablishment"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="time" android:layout_below="@+id/spinnerPrefCo" android:layout_alignParentLeft="true" android:id="@+id/editTextPickupTime" android:hint="@string/time"></EditText>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" android:id="@+id/buttonSubmitRequest" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"></Button>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:text="Current Location" android:layout_below="@+id/editTextDestCity" android:layout_alignParentLeft="true"></TextView>
+    
+</RelativeLayout>

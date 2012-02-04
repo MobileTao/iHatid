@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">iHatid</string>
+    <string name="destination">Establishment</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="current_location">House / Street Number</string>
+    <string name="time">Pick-up Time</string>
+    <string-array name="taxi_operators">
+        <item>Any</item>
+        <item>MGE</item>
+    </string-array>
+        <string name="ack_successful">your hatid request is successful, let\'s wait for ack</string>
+        <string name="comment">Comment</string>
+        <string name="operator">Operator / Company Name</string>
+        <string name="plate_number">Plate Number</string>
+        <string-array name="comment_type">
+            <item>Praise</item>
+            <item>Complain</item>
+        </string-array>
+            <string name="ridein_welcome">Great! Welcome Aboard. Ride in with us.</string>
+</resources>

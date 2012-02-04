@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="17dp" android:layout_marginTop="19dp" android:id="@+id/buttonRideIn" android:text="Ride In"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View" android:id="@+id/buttonView" android:layout_below="@+id/buttonRequest" android:layout_alignParentLeft="true"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Report" android:id="@+id/buttonReport" android:layout_below="@+id/buttonView" android:layout_alignParentLeft="true"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Request" android:id="@+id/buttonRequest" android:layout_centerVertical="true" android:layout_alignParentLeft="true"></Button>
+</RelativeLayout>

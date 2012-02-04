@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content" android:text="Report" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="24dp" android:layout_marginTop="20dp"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1" android:layout_marginLeft="34dp" android:layout_marginTop="18dp" android:layout_width="match_parent" android:hint="@string/operator">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_below="@+id/editText1" android:layout_alignLeft="@+id/editText1" android:layout_width="match_parent" android:hint="@string/plate_number"></EditText>
+    <Spinner android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_below="@+id/editText2" android:layout_alignLeft="@+id/editText2" android:layout_width="match_parent"></Spinner>
+    <EditText android:id="@+id/editText3" android:inputType="textMultiLine" android:layout_alignLeft="@+id/spinner1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/buttonSubmit" android:layout_below="@+id/spinner1" android:hint="@string/comment"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:id="@+id/buttonSubmit" android:text="Submit"></Button>
+    
+</RelativeLayout>
