@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <EditText
+            android:id="@+id/username"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:width="250dip"
+            android:maxLength="25"
+            android:gravity="center"
+            android:hint="username"
+            ></EditText>
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/username"
+            android:width="250dip"
+            android:maxLength="10"
+            android:password="true"
+            android:gravity="center"
+            android:hint="password"
+            ></EditText>
+
+    <Button
+            android:id="@+id/login"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:width="200dip"
+            android:text="login"
+            />
+
+    <CheckBox
+            android:id="@+id/rememberAlways"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" Remember me always"
+            android:gravity="center"
+            />
+
+</LinearLayout>
